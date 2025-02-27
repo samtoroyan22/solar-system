@@ -51,7 +51,7 @@ To run this project, you need to have:
 
 ## Screenshots
 
-![Solar System](./screenshots/solar-system.png)
+![Solar System](./screenshots/main-screen.png)
 
 ## License
 
