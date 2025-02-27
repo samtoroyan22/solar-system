@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Solar System Simulation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple implementation of a 3D interactive Solar System using React and Babylon.js.  
+The project allows users to explore planets, adjust simulation parameters, and view planet details in a modal window.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🌍 **Interactive 3D Solar System** – Rotate and zoom the camera to explore planets.
+- 🔥 **Adjustable Settings** – Modify planet sizes, orbital speeds, and sun glow intensity.
+- 🌟 **Planet Info Modal** – Click on planets to view detailed information.
+- 🎨 **Realistic Space Environment** – Includes background space image and sun glow effect.
 
-### `npm start`
+## Setup and Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project, you need to have:
 
-### `npm test`
+- **Node.js**
+- **npm** (Node Package Manager)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
 
-### `npm run build`
+1. **Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/your-username/solar-system-react.git
+   cd solar-system-react
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Run the development server**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open the application in your browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React.js** – JavaScript framework for building UI
+- **Babylon.js** – 3D rendering engine for creating the Solar System
+- **Material-UI** – UI components (used for sliders in the settings panel)
+- **CSS Modules** – Styling for UI components
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Solar System](./screenshots/solar-system.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License.  
+© 2025 Samvel Toroyan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+# Симуляция Солнечной системы
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Это простая реализация 3D-интерактивной модели Солнечной системы с использованием React и Babylon.js.  
+Проект позволяет пользователям исследовать планеты, изменять параметры симуляции и просматривать информацию о планетах в модальном окне.
 
-### Making a Progressive Web App
+## Особенности
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 🌍 **Интерактивная 3D-модель** – Возможность вращать и приближать камеру для исследования планет.
+- 🔥 **Настройки параметров** – Изменение размеров планет, скорости их движения и яркости солнца.
+- 🌟 **Модальное окно информации** – Клик по планете открывает подробную информацию о ней.
+- 🎨 **Реалистичная космическая среда** – Фон с изображением космоса и эффект свечения солнца.
 
-### Advanced Configuration
+## Установка и настройка
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Требования
 
-### Deployment
+Для запуска проекта необходимо:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Node.js**
+- **npm** (менеджер пакетов для Node.js)
 
-### `npm run build` fails to minify
+### Шаги
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Клонировать репозиторий**:
+
+   ```bash
+   git clone https://github.com/your-username/solar-system-react.git
+   cd solar-system-react
+   ```
+
+2. **Установить зависимости**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Запустить сервер разработки**:
+
+   ```bash
+   npm start
+   ```
+
+4. Открыть приложение в браузере по адресу `http://localhost:3000`.
+
+## Используемые технологии
+
+- **React.js** – Фреймворк JavaScript для создания пользовательского интерфейса
+- **Babylon.js** – 3D-движок для рендеринга Солнечной системы
+- **Material-UI** – Компоненты интерфейса (используются для слайдеров в панели настроек)
+- **CSS Modules** – Стилизация UI-компонентов
+
+## Лицензия
+
+Этот проект лицензирован под лицензией MIT.  
+© 2025 Samvel Toroyan
