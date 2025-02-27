@@ -1,0 +1,57 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.853);
+  transition: width 1s ease;
+  z-index: 1;
+  height: 100%;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar.closed {
+  width: 1px;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.toggle-btn:hover {
+  background: rgba(0, 0, 0, 1);
+  transform: scale(1.2);
+}
+
+.toggle-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.controls {
+  margin-top: 30%;
+  padding: 20px;
+}
+
+.control-group {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.853);
+}
