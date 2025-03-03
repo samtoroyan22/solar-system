@@ -72,7 +72,7 @@ const SolarSystem = ({ speed, planetSize, sunGlow }) => {
     );
 
     const planets = planetData.map(
-      ({ name, size, distance, speed, color, description, img }) => {
+      ({ name, size, diameter, distance, speed, color, description, img }) => {
         const planet = MeshBuilder.CreateSphere(
           name,
           { diameter: size * planetSizeMultiplierRef.current },
@@ -88,6 +88,7 @@ const SolarSystem = ({ speed, planetSize, sunGlow }) => {
               name,
               size,
               distance,
+              diameter,
               speed,
               description,
               img,

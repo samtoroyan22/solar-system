@@ -30,7 +30,7 @@ const PlanetInfoModal = ({ isOpen, onClose, planet }) => {
           <img src={planet?.img} alt={planet?.name} className="modal-image" />
           <div className="info-container">
             <p>
-              <strong>Diameter:</strong> <span>{planet?.diameter} km</span>
+              <strong>Diameter:</strong> <span>{planet.diameter} km</span>
             </p>
             <p>
               <strong>Distance from Sun:</strong>{" "}

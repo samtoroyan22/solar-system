@@ -11,8 +11,8 @@ import sunImg from "../images/sun.png";
 
 export const sunData = {
   name: "Sun",
-  diameter: 1391000, // Реальный диаметр Солнца в километрах
-  size: 10, // Масштаб для рендеринга (было "Massive")
+  diameter: 1391000,
+  size: 10,
   distance: "Center",
   speed: "N/A",
   color: new Color3(1, 0.5, 0),
@@ -24,8 +24,8 @@ export const sunData = {
 export const planetData = [
   {
     name: "Mercury",
-    diameter: 4879, // Реальный диаметр в километрах
-    size: 1, // Масштаб для рендеринга
+    diameter: 4879,
+    size: 1,
     distance: 15,
     speed: 0.015,
     color: new Color3(0.7, 0.7, 0.7),
