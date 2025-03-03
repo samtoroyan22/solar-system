@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solar-system/static/css/main.34e14a1a.css",
-    "main.js": "/solar-system/static/js/main.b8d08923.js",
+    "main.js": "/solar-system/static/js/main.bce1a4a6.js",
     "static/media/venus.png": "/solar-system/static/media/venus.79edef2a9d818108585c.png",
     "static/media/earth.png": "/solar-system/static/media/earth.870cd5704e9a31845dcd.png",
     "static/media/mercury.png": "/solar-system/static/media/mercury.3791a04091464e5bdcd0.png",
@@ -14,10 +14,10 @@
     "static/media/uranus.png": "/solar-system/static/media/uranus.4e539e74cb8c9dd12321.png",
     "index.html": "/solar-system/index.html",
     "main.34e14a1a.css.map": "/solar-system/static/css/main.34e14a1a.css.map",
-    "main.b8d08923.js.map": "/solar-system/static/js/main.b8d08923.js.map"
+    "main.bce1a4a6.js.map": "/solar-system/static/js/main.bce1a4a6.js.map"
   },
   "entrypoints": [
     "static/css/main.34e14a1a.css",
-    "static/js/main.b8d08923.js"
+    "static/js/main.bce1a4a6.js"
   ]
 }
