@@ -30,36 +30,36 @@ const Sidebar = ({
           </h2>
 
           <div className="control-group">
-            <h4>Скорость: {speed}</h4>
+            <h4>Speed: {speed}</h4>
             <Slider
               min={-50}
               max={50}
               step={0.5}
               value={speed}
               onChange={(e, val) => setSpeed(val)}
-              className="custom-slider" // Добавляем класс для стилизации
+              className="custom-slider" 
             />
           </div>
 
           <div className="control-group">
-            <h4>Размер планет: {planetSize}</h4>
+            <h4>Planet size: {planetSize}</h4>
             <Slider
               min={0.5}
               max={2}
               step={0.05}
-              value={planetSize} // Используем value вместо defaultValue для синхронизации
+              value={planetSize} 
               onChange={(e, val) => setPlanetSize(val)}
               className="custom-slider"
             />
           </div>
 
           <div className="control-group">
-            <h4>Яркость Солнца: {sunGlow}</h4>
+            <h4>Sun brightness: {sunGlow}</h4>
             <Slider
               min={0}
               max={10}
               step={0.1}
-              value={sunGlow} // Используем value вместо defaultValue
+              value={sunGlow} 
               onChange={(e, val) => setSunGlow(val)}
               className="custom-slider"
             />
